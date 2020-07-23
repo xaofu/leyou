@@ -29,7 +29,7 @@ public class SmsUtils {
     private SmsProperties prop;
 
     public void sendSms(String phone, String code, String signName, String template) {
-        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "****************J", "************");
+        DefaultProfile profile = DefaultProfile.getProfile("cn-hangzhou", "+++++++++++++++++", "111111);
         IAcsClient client = new DefaultAcsClient(profile);
 
         CommonRequest request = new CommonRequest();
