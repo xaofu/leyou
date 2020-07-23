@@ -4,14 +4,14 @@ spring:
   application:
     name: sms-service
   rabbitmq:
-    host: 175.24.50.240.
-    username: leyou
-    password: leyou
+    host: &&&&&&&&&&&&
+    username: **
+    password: ***
     virtual-host: /leyou
 
 leyou:
   sms:
-    accessKeyId: LTAI4FcP9mrq9NzYjfPb7orJ # 你自己的accessKeyId
-    accessKeySecret: 3MrtHldybv7QiAICih3bEqKJ9vc0S2 # 你自己的AccessKeySecret
+    accessKeyId:******************** # 你自己的accessKeyId
+    accessKeySecret: ************** # 你自己的AccessKeySecret
     signName: 乐优商城 # 签名名称
-    verifyCodeTemplate: SMS_185810371 # 模板名称
+    verifyCodeTemplate: ********** # 模板名称
